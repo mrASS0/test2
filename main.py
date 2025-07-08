@@ -28,5 +28,3 @@ async def on_message(message):
         await message.channel.send("La tua password " + gen_pass(10))
 
 client.run("TOKEN_SEGRETO")
-
-#if message.content.startswith('$dammi la password'):
